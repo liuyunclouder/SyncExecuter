@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CCF5101BA49E3500618098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF50F1BA49E3500618098 /* main.m */; };
+		00CCF5131BA49E3500618098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF5121BA49E3500618098 /* AppDelegate.m */; };
+		00CCF5161BA49E3500618098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF5151BA49E3500618098 /* ViewController.m */; };
+		00CCF5191BA49E3500618098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CCF5171BA49E3500618098 /* Main.storyboard */; };
+		00CCF51B1BA49E3500618098 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CCF51A1BA49E3500618098 /* Images.xcassets */; };
+		00CCF51E1BA49E3500618098 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00CCF51C1BA49E3500618098 /* LaunchScreen.xib */; };
+		00CCF52A1BA49E3600618098 /* EZOTestSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF5291BA49E3600618098 /* EZOTestSyncTests.m */; };
+		00CCF5361BA49E7800618098 /* NSObject+SyncExecuter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CCF5351BA49E7800618098 /* NSObject+SyncExecuter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00CCF5241BA49E3600618098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00CCF5021BA49E3500618098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00CCF5091BA49E3500618098;
+			remoteInfo = EZOTestSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CCF50A1BA49E3500618098 /* EZOTestSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZOTestSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CCF50E1BA49E3500618098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CCF50F1BA49E3500618098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00CCF5111BA49E3500618098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00CCF5121BA49E3500618098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00CCF5141BA49E3500618098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00CCF5151BA49E3500618098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00CCF5181BA49E3500618098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00CCF51A1BA49E3500618098 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00CCF51D1BA49E3500618098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00CCF5231BA49E3600618098 /* EZOTestSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZOTestSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00CCF5281BA49E3600618098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00CCF5291BA49E3600618098 /* EZOTestSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZOTestSyncTests.m; sourceTree = "<group>"; };
+		00CCF5341BA49E7800618098 /* NSObject+SyncExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SyncExecuter.h"; sourceTree = "<group>"; };
+		00CCF5351BA49E7800618098 /* NSObject+SyncExecuter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SyncExecuter.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00CCF5071BA49E3500618098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CCF5201BA49E3600618098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00CCF5011BA49E3500618098 = {
+			isa = PBXGroup;
+			children = (
+				00CCF50C1BA49E3500618098 /* EZOTestSync */,
+				00CCF5261BA49E3600618098 /* EZOTestSyncTests */,
+				00CCF50B1BA49E3500618098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00CCF50B1BA49E3500618098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF50A1BA49E3500618098 /* EZOTestSync.app */,
+				00CCF5231BA49E3600618098 /* EZOTestSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00CCF50C1BA49E3500618098 /* EZOTestSync */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF5331BA49E4600618098 /* SynExecuter */,
+				00CCF5111BA49E3500618098 /* AppDelegate.h */,
+				00CCF5121BA49E3500618098 /* AppDelegate.m */,
+				00CCF5141BA49E3500618098 /* ViewController.h */,
+				00CCF5151BA49E3500618098 /* ViewController.m */,
+				00CCF5171BA49E3500618098 /* Main.storyboard */,
+				00CCF51A1BA49E3500618098 /* Images.xcassets */,
+				00CCF51C1BA49E3500618098 /* LaunchScreen.xib */,
+				00CCF50D1BA49E3500618098 /* Supporting Files */,
+			);
+			path = EZOTestSync;
+			sourceTree = "<group>";
+		};
+		00CCF50D1BA49E3500618098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF50E1BA49E3500618098 /* Info.plist */,
+				00CCF50F1BA49E3500618098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00CCF5261BA49E3600618098 /* EZOTestSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF5291BA49E3600618098 /* EZOTestSyncTests.m */,
+				00CCF5271BA49E3600618098 /* Supporting Files */,
+			);
+			path = EZOTestSyncTests;
+			sourceTree = "<group>";
+		};
+		00CCF5271BA49E3600618098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF5281BA49E3600618098 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00CCF5331BA49E4600618098 /* SynExecuter */ = {
+			isa = PBXGroup;
+			children = (
+				00CCF5341BA49E7800618098 /* NSObject+SyncExecuter.h */,
+				00CCF5351BA49E7800618098 /* NSObject+SyncExecuter.m */,
+			);
+			name = SynExecuter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00CCF5091BA49E3500618098 /* EZOTestSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CCF52D1BA49E3600618098 /* Build configuration list for PBXNativeTarget "EZOTestSync" */;
+			buildPhases = (
+				00CCF5061BA49E3500618098 /* Sources */,
+				00CCF5071BA49E3500618098 /* Frameworks */,
+				00CCF5081BA49E3500618098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZOTestSync;
+			productName = EZOTestSync;
+			productReference = 00CCF50A1BA49E3500618098 /* EZOTestSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00CCF5221BA49E3600618098 /* EZOTestSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CCF5301BA49E3600618098 /* Build configuration list for PBXNativeTarget "EZOTestSyncTests" */;
+			buildPhases = (
+				00CCF51F1BA49E3600618098 /* Sources */,
+				00CCF5201BA49E3600618098 /* Frameworks */,
+				00CCF5211BA49E3600618098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00CCF5251BA49E3600618098 /* PBXTargetDependency */,
+			);
+			name = EZOTestSyncTests;
+			productName = EZOTestSyncTests;
+			productReference = 00CCF5231BA49E3600618098 /* EZOTestSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00CCF5021BA49E3500618098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TangYunfei;
+				TargetAttributes = {
+					00CCF5091BA49E3500618098 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					00CCF5221BA49E3600618098 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 00CCF5091BA49E3500618098;
+					};
+				};
+			};
+			buildConfigurationList = 00CCF5051BA49E3500618098 /* Build configuration list for PBXProject "EZOTestSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00CCF5011BA49E3500618098;
+			productRefGroup = 00CCF50B1BA49E3500618098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00CCF5091BA49E3500618098 /* EZOTestSync */,
+				00CCF5221BA49E3600618098 /* EZOTestSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00CCF5081BA49E3500618098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCF5191BA49E3500618098 /* Main.storyboard in Resources */,
+				00CCF51E1BA49E3500618098 /* LaunchScreen.xib in Resources */,
+				00CCF51B1BA49E3500618098 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CCF5211BA49E3600618098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CCF5061BA49E3500618098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCF5161BA49E3500618098 /* ViewController.m in Sources */,
+				00CCF5131BA49E3500618098 /* AppDelegate.m in Sources */,
+				00CCF5101BA49E3500618098 /* main.m in Sources */,
+				00CCF5361BA49E7800618098 /* NSObject+SyncExecuter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00CCF51F1BA49E3600618098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCF52A1BA49E3600618098 /* EZOTestSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CCF5251BA49E3600618098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00CCF5091BA49E3500618098 /* EZOTestSync */;
+			targetProxy = 00CCF5241BA49E3600618098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00CCF5171BA49E3500618098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CCF5181BA49E3500618098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00CCF51C1BA49E3500618098 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00CCF51D1BA49E3500618098 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00CCF52B1BA49E3600618098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00CCF52C1BA49E3600618098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00CCF52E1BA49E3600618098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZOTestSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00CCF52F1BA49E3600618098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZOTestSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00CCF5311BA49E3600618098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZOTestSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZOTestSync.app/EZOTestSync";
+			};
+			name = Debug;
+		};
+		00CCF5321BA49E3600618098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZOTestSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZOTestSync.app/EZOTestSync";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CCF5051BA49E3500618098 /* Build configuration list for PBXProject "EZOTestSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCF52B1BA49E3600618098 /* Debug */,
+				00CCF52C1BA49E3600618098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00CCF52D1BA49E3600618098 /* Build configuration list for PBXNativeTarget "EZOTestSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCF52E1BA49E3600618098 /* Debug */,
+				00CCF52F1BA49E3600618098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00CCF5301BA49E3600618098 /* Build configuration list for PBXNativeTarget "EZOTestSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00CCF5311BA49E3600618098 /* Debug */,
+				00CCF5321BA49E3600618098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00CCF5021BA49E3500618098 /* Project object */;
+}
